@@ -1,0 +1,71 @@
+body{
+	background-image: url(../image/bg.jpg);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: center;
+}
+body,html{
+	height: 100%;
+}
+h1{
+	margin:30px;
+	text-align: center;
+	color: #747373;
+}
+.zhengti{
+	width: 600px;
+	background: white;
+	border-radius: 10px;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+.biaoti{
+	width: 600px;
+	height: 70px;
+	font-size:30px;
+	line-height: 70px;
+	margin-top: 20px;
+}
+.kuang{
+	width:320px;
+	text-align: center;
+	margin:0 auto;
+	margin-bottom: 25px;
+}
+.kuang label{
+	display: block;
+	text-align: left;
+	line-height: 30px;
+	font-size: 20px;
+}
+.kuang input{
+	display: block;
+	width: 300px;
+	height: 45px;
+	border:1px solid #ddd;
+	font-size: 18px;
+	padding: 0 0 0 10px;
+}
+.kuang input:focus{
+border-left: 1px solid #e1b465;
+}
+button{
+	margin-bottom: 30px;
+	margin-right: 9px;
+	width: 312px;
+	height: 50px;
+	color: white;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	font-size: 18px;
+}
+button{
+	background-color: #dda84b;
+}
+button:hover{
+	background-color: white;
+	color: #dda84b;
+	border:1px solid #dda84b;
+}
