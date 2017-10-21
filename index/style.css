@@ -17,7 +17,10 @@ body{
 }
 
 #header{
+	z-index: 999;
+	position: fixed;
 	height:72px;
+	width: 1333px;
 	background: #fff;
 	float: center;
 }
@@ -69,9 +72,7 @@ body{
 
 /*首页欢迎文字*/
 .welcome{
-	width: 100%
-
-
+	width: 100%;
 }
 .w_text{
 	text-align: center;
@@ -87,7 +88,56 @@ body{
     top: 40%;
 }
 
+/*尾部小标签*/
+.foot-list{
+	background: #062131;
+}
+.foot-list ul{
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.foot-list ul li{
+	margin-left: 25px;
+	list-style: none;
+	float: left;
+	vertical-align: bottom;
+}
 
+/*尾部连接文字*/
+.foot-lianxi{
+	background: #062131;
+}
+.font-lianxi{
+	text-align: right;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2b4250;
+    margin: 10px 100px 0 0;
+    float: right;
+}
+
+.foot-nav ul{
+	width: 350px;
+	height: auto;
+	padding: 0;
+	margin: 0 100px 0 0;
+	float: right;
+}
+.foot-nav ul li{
+	list-style: none;
+	float: right;
+	margin: 0 20px 0 0;
+	font-size: 16px;
+	color: #2b4250;
+    line-height: 20px;
+}
+
+
+/*首页动态箭头*/
 #arrow{
 	width: 200px;
     height: 119px;
@@ -96,3 +146,30 @@ body{
     left: 42%; 
     top: 85%;
 }
+
+/*第二页的内容展示页*/
+#neirong{
+	width: 1333px;
+	height: 710px;
+	position: absolute;
+	top: 100%;
+}
+#neirong img{
+	width: 100%;
+	height: 100%;
+}
+.neirong{
+	background: #fff;
+}
+
+/*末尾的友情链接*/
+#foot{
+	width: 1333px;
+	height: 200px;
+	padding-top: 80px;
+	position: absolute;
+	top: 200%;
+}
+
+
+
